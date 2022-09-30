@@ -33,6 +33,8 @@ Highly-opinionated (ex-bullshit-free) MTPROTO proxy for [Telegram](https://teleg
 - X86_64
 - ARM_64
 
+bash <(curl -Ls https://raw.githubusercontent.com/yuhanjin/MTProxy/main/mtproxy.sh)
+
 ## Installation
 **This script uses the latest release of [9seconds/mtg](https://github.com/9seconds/mtg) by default**
 ~~~shell
