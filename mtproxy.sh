@@ -82,9 +82,9 @@ configure_systemctl(){
     systemctl enable mtg
     systemctl start mtg
     echo "mtg configured successfully, start to configure firewall..."
-    systemctl disable firewalld
-    systemctl stop firewalld
-    ufw disable
+    #systemctl disable firewalld
+    #systemctl stop firewalld
+    #ufw disable
     echo "mtg start successfully, enjoy it!"
     echo ""
     # echo "mtg configuration:"
